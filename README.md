@@ -20,7 +20,7 @@ This project uses `express` to provide an API to register stars in the universe.
 
 Once validated, a user can then register a star using the `/block` endpoint. The API also contains endpoints for searching by block hash (`/hash:[HASH]`), block address (`/address:[ADDRESS]`), and block height (`/[HEIGHT]`). See the endpoints section below for more details.
 
-Please note that this project is for learning purposes only, and there is no attempt made to validate star data beyond simply ensuring the required data is present (See [here](https://github.com/brenj/private-blockchain-notary/blob/master/src/helpers/index.js#L6)). In the event this was a public facing API, a custom or third-party library would be needed to validate star data before registration. Also, the endpoint names were provided (and required) by Udacity.
+Please note that this project is for learning purposes only, and there is no attempt made to validate star data beyond simply ensuring the required data is present 
 
 Endpoints
 ---------
@@ -211,36 +211,6 @@ Install & Run
 1. `npm install`
 2. `npm start`
 
-Code Quality
-------------
-This codebase adheres to the [Airbnb JavaScript/React/JSX Style Guide](https://github.com/airbnb/javascript)
 
-Code Organization (src)
------------------------
-```console
-├── app.js
-├── controllers
-│   ├── index.js
-│   ├── routes.js
-│   └── stars.js
-├── helpers
-│   └── index.js
-├── middlewares
-│   └── index.js
-└── models
-    ├── block.js
-    ├── blockchain.js
-    ├── blockchainData.js
-    └── starRequestData.js
 
-4 directories, 10 files
-```
 
-Grading (by Udacity)
---------------------
-
-Criteria                             |Highest Grade Possible  |Grade Recieved
--------------------------------------|------------------------|--------------
-Blockchain ID Validation Routine     |Meets Specifications    |Meets Specifications
-Star Registration Endpoint           |Meets Specifications    |Meets Specifications
-Star Lookup                          |Meets Specifications    |Meets Specifications
