@@ -1,6 +1,6 @@
 const GENESIS_BLOCK = {
   body:
-   { address: '19AAjaTUbRjQCMuVczepkoPswiZRhjtg31',
+   { address: '19xaiMqayaNrn3x7AjV5cU4Mk5f5prRVpL',
      star:
       { dec: '-26° 29\' 24.9',
         ra: '16h 29m 1.0s',
@@ -9,7 +9,7 @@ const GENESIS_BLOCK = {
    },
   height: 0,
   previousBlockHash: '',
-  time: '1539023948',
+  time: '1541605128',
   hash: 'cf0d39b631ecfde41feb7599ef06fbbffe47197eaff949547698d8ef04af9b6d',
 };
 
